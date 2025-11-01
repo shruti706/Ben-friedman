@@ -378,3 +378,331 @@ a.btn-border {
 .power-btn:hover {
   background: linear-gradient(90deg, #7a0004 0%, #e41e26 100%);
 }
+
+.packaging-section {
+  background: #111 url('images/Section.png') no-repeat center/cover;
+  color: #fff;
+  padding: 100px 0;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.packaging-content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.packaging-content p {
+  color: #ccc;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.highlight {
+  color: #e63946;
+}
+
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #333;
+  background: #000;
+  max-width: 900px;
+  margin: 50px auto 80px;
+  height: 150px;
+}
+
+.logo-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #333;
+  height: 100%;
+}
+
+.logo-box:last-child {
+  border-right: none;
+}
+
+.logo-box img {
+  max-height: 90px;
+  /* filter: brightness(0) invert(1); */
+  opacity: 0.9;
+  transition: all 0.3s ease;
+}
+
+.logo-box img:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* ---------- Product Area ---------- */
+.product-area h6 {
+  color: #e63946;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.product-area h3 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.product-area p {
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.product-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.product-btn {
+  background: transparent;
+  border: 1px solid #444;
+  color: #fff;
+  /* padding: 8px 15px; */
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: 0.3s ease;
+}
+
+
+
+.explore-btn {
+  background: #e63946;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.explore-btn:hover {
+  background: #c72e38;
+}
+
+.product-box-image img {
+  width: 100%;
+  /* border-radius: 10px; */
+}
+
+.product-btn img {
+  width: 35px;                 
+  height: 45px;
+  object-fit: contain;
+    background-color: red;
+    clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%);
+}
+
+/* Section Background */
+.smart-packaging {
+  background: url('images/background-lines.png') no-repeat center/cover;
+  padding: 100px 0;
+  position: relative;
+  color: #333;
+      background-size: contain;
+      background-position: center 290px;
+
+}
+
+/* Heading Section */
+.packaging-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.packaging-header .highlight {
+  color: #e63946;
+  position: relative;
+}
+
+.packaging-header p {
+  color: #555;
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto 60px;
+}
+
+/* Cards Section */
+.packaging-cards {
+  /* display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap; */
+  justify-content: center;
+  row-gap: 30px;
+}
+
+.card-box {
+  background: #fff;
+  padding: 40px 25px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+  height: 420px;
+    width: 300px;
+}
+
+.card-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-box img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.card-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.card-box p {
+  color: #666;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.packaging-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.packaging-title .highlight {
+  color: #e63946;
+  position: relative;
+}
+
+.packaging-underline {
+  display: flex;
+  justify-content: center;
+  margin-top: -5px; 
+  margin-bottom: 40px; 
+}
+
+.packaging-underline img {
+  width: 140px;
+  height: auto;
+}
+
+/* ===== LEADERS SECTION ===== */
+.leaders-section {
+  background: #fff;
+  background: url("./images/Background.png") repeat;
+}
+
+.leaders-title {
+  font-weight: 700;
+  font-size: 32px;
+  color: #111;
+}
+
+/* Each card container */
+.leader-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  height: 100%;
+  min-height: 260px; /* 👈 ensures all boxes stay uniform */
+}
+
+/* Testimonial box */
+.leader-box {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  min-height: 160px; /* Ensures all boxes are same height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Profile info below */
+.leader-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+/* Circular image */
+.leader-img img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Text */
+.leader-text h6 {
+  margin: 0;
+  font-weight: 700;
+  color: #111;
+  font-size: 15px;
+}
+
+.leader-text p {
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.3;
+}
+
+
+
+/* Carousel Navigation */
+.owl-carousel .owl-nav button {
+  position: absolute;
+  top: 35%;
+  transform: translateY(-50%);
+  background: #e63946;
+  color: #fff;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+  left: -45px;
+}
+
+.owl-carousel .owl-nav .owl-next {
+  right: -45px;
+}
+
+.owl-carousel .owl-nav button:hover {
+  background: #c12e37;
+}
